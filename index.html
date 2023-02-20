@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Элина_ель</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Навигационная панель-->
+    <nav class="navbar">
+        <h1 class="brand">logo</h1>
+        <article class="toogle-btn">
+            <span></span>
+            <span></span>
+        </article>
+        <ul class="links-container">
+            <li class="links-items">
+                <a href="#" class="link active">Главная</a>
+            </li>
+            <li class="links-item">
+                <a href="#project-section" class="link">Проекты</a>
+            </li>
+            <li class="links-item">
+                <a href="#contact-section" class="link">Контакты</a>
+            </li>
+            <li class="links-item">
+                <a href="#about-section" class="link">Обо мне</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- Главная -->
+    <section class="home">
+        <article>
+            <h1 class="hero-heading"><span class="highlight">привет, </span>меня зовут Элина</h1>
+            <p class="profession">Веб-разработчик</p>
+            <p class="info">Просто я</p>
+            <a href="#contact-section" class="btn">мои контакты</a>
+        </article>
+        <img src="Image/13caf6f5f94483da5531727bf92460c2.jpg" alt="" class="image">
+    </section>
+    <section class="about" id="about-section">
+        <h2 class="heading">Обо<span class="highlight"> мне</span></h2>
+        <p class="sub-heading">Сейчас вы узнаете мою историю</p>
+        <div class="separator"></div>
+
+        <div class="about-me-container">
+            <div class="left-col">
+                <img src="Image/251120211748127094f0.webp" alt="" class="about-image">
+            </div>
+            <div class="right-col">
+                <p class="about-para">*скрыто*</p>
+            </div>
+        </div>
+
+        <h2 class="heading"><span class="highlight">Языки и технологии,</span> которые я знаю</h2>
+        <div class="separator"></div>
+        <article class="skill-container">
+            <div class="skill-card">
+                <p class="skill">HTML</p>
+            </div>
+            <div class="skill-card large">
+                <p class="skill">CSS</p>
+            </div>
+            <div class="skill-card">
+                <p class="skill">Python</p>
+            </div>
+        </article>
+
+    </section>
+    <section class="project" id="project-section">
+        <h2 class="heading"><span class="highlight">Мои </span>проекты</h2>
+        <p class="sub-heading">Мои самые лучшие работы</p>
+        <div class="separator"></div>
+
+        <section class="filters">
+            <button class="filter-btn active" id="all">Все</button>
+            <button class="filter-btn" id="web">Веб-разработка</button>
+            <button class="filter-btn" id="python">Разработка на Python</button>
+        </section>
+
+        <section class="project-container">
+            <article class="project-card">
+                <img src="Image/бабочки.jpg" alt="">
+                <article class="content">
+                    <h1 class="project-name">Визитка</h1>
+                    <span class="tags">#html #css</span>
+                </article>
+            </article>
+            <article class="project-card">
+                <img src="Image/ещёмашина.jfif" alt="">
+                <article class="content">
+                    <h1 class="project-name">Тюнинг-салон</h1>
+                    <span class="tags">#html #css</span>
+                </article>
+            </article>
+            <article class="project-card">
+                <img src="Image/гусь.png" alt="">
+                <article class="content">
+                    <h1 class="project-name">Картина</h1>
+                    <span class="tags">#html #css</span>
+                </article>
+            </article>
+            <article class="project-card">
+                <img src="Image/главнаякартинка3.jpg" alt="">
+                <article class="content">
+                    <h1 class="project-name">Магазин игрушек</h1>
+                    <span class="tags">#html #css</span>
+                </article>
+            </article>
+        </section>
+    </section>
+</body>
+</html>
